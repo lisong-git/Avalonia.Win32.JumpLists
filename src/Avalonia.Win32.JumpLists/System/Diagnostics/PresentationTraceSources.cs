@@ -61,7 +61,7 @@ public static partial class PresentationTraceSources
     /// DependencyProperty for TraceLevel property.
     /// </summary>
     public static readonly AvaloniaProperty TraceLevelProperty =
-            AvaloniaProperty.RegisterAttached<IAvaloniaObject, PresentationTraceLevel>(
+            AvaloniaProperty.RegisterAttached<AvaloniaObject, PresentationTraceLevel>(
                     "TraceLevel",
                     typeof(PresentationTraceSources));
 

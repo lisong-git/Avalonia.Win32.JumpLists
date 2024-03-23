@@ -1,3 +1,6 @@
 <Project>
-	<Import Project="..\ref\DirectoryPackages\Directory.Packages.props" />
+  <Import Project="..\ref\DirectoryPackages\Directory.Packages.props" />
+  <ItemGroup>
+    <PackageVersion Include="Avalonia.Themes.Fluent" Version="11.0.10" />
+  </ItemGroup>
 </Project>

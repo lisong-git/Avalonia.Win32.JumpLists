@@ -38,6 +38,7 @@
 		<PackageReference Include="Avalonia.Desktop" />
 		<PackageReference Condition="'$(Configuration)' == 'Debug'" Include="Avalonia.Diagnostics" />
 		<PackageReference Include="Avalonia.ReactiveUI" />
+		<PackageReference Include="Avalonia.Themes.Fluent" />
 		<PackageReference Include="PInvoke.User32" />
 		<PackageReference Include="System.Reactive" />
 	</ItemGroup>
